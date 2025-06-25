@@ -71,8 +71,8 @@
 // fetch refactoring
 // getMovies function yang berisikan fetch dan isi dari keyword
 // update ui berisikan card yang akan di tampilkan di continer
-const URL_ALL_MOVIE = 'http://www.omdbapi.com/?apikey=7d715cb3&s=';
-const URL_MOVIE_DETAIL = 'http://www.omdbapi.com/?apikey=7d715cb3&i=';
+const URL_ALL_MOVIE = 'https://www.omdbapi.com/?apikey=7d715cb3&s=';
+const URL_MOVIE_DETAIL = 'https://www.omdbapi.com/?apikey=7d715cb3&i=';
 
 const searchButton = document.querySelector('.search-button');
 const inputKeyword = document.querySelector('.input-keyword');
